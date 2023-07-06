@@ -5,7 +5,7 @@ string cardtype = "";
 
 do
 {
-    Console.Write("Type in which card you wish to see details for Basic/Silver/Guld: ");
+    Console.Write("Type in which Creditcard you wish to see details for Basic/Silver/Guld: ");
     cardtype = Console.ReadLine();
 
     ICreditCard cardDetails = CreditCardFactory.GetCreditCard(cardtype);

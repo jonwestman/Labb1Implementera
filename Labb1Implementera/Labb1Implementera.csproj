@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Factory\" />
     <Folder Include="Singleton\" />
+    <Folder Include="Strategy\" />
   </ItemGroup>
 
 </Project>
