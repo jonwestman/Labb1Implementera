@@ -1,5 +1,7 @@
 ﻿using Labb1Implementera;
 public class Program
+
+    // I used the Factory Method, Singleton Pattern and the Strategy Pattern to create this simple console application
 {
     private static readonly CreditCardFactory creditCardFactory = CreditCardFactory.GetInstance();
     private static readonly Dictionary<int, IPaymentStrategy> paymentStrategies = new Dictionary<int, IPaymentStrategy>();
