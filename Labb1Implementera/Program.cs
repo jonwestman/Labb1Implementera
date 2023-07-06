@@ -1,6 +1,4 @@
-﻿using Labb1Implementera.Factory;
-
-string theEnd = "";
+﻿string theEnd = "";
 string cardtype = "";
 
 do
