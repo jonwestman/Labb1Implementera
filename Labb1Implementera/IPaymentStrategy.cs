@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Labb1Implementera
 {
     // Strategy Pattern
+    // methods defined here must be implemented by each concrete strategy.
     public interface IPaymentStrategy
     {
         void ProcessPayment(decimal amount);
