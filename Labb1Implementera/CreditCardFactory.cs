@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Labb1Implementera
 {
-    // Singleton Pattern
+    // Singleton Pattern 
+    // CreditCardFactory class is implemented as a Singleton to ensure there is only one instance of the factory. The factory provides a 'CreateCreditCard'
+    // method that returns different credit card objects based on the card type requested.
     public class CreditCardFactory
     {
         private static CreditCardFactory _instance;

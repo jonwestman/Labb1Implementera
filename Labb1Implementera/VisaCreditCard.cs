@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace Labb1Implementera
 {
     // Factory Method
+    // Concrete class
     public class VisaCreditCard : CreditCard
     {
         public override string GetCardType()
